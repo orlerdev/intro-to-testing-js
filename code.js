@@ -15,5 +15,6 @@ const isEven = (input) => {
   return parseFloat(input) % 2 === 0;
 }
 
-
-
+const isVowel = (input) => {
+  return /^[aeiou]$/i.test(input);
+}

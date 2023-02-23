@@ -1,8 +1,8 @@
 // helloWorld function 
 const helloWorld = () => {
-    return "Hello, World!";
-}
+  return "Hello, World!";
+};
 
-const sayHello = () => {
-    return "";
-}
+const sayHello = (input) => {
+  return `Hello, ${input}!`
+};

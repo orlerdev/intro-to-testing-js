@@ -4,5 +4,6 @@ const helloWorld = () => {
 };
 
 const sayHello = (input) => {
-  return `Hello, ${input}!`
+  return typeof input !== "string" ? "Hello, World!" : `Hello, ${input}!`
 };
+
